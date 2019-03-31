@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>立方体</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 300px auto;
+            position: relative;
+            transform-style: preserve-3d;
+            /**perspective: 500px;**/
+            animation: rotate 20s linear infinite;
+
+        }
+      /*  .box div{
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
+        }*/
+        .bbox{
+            width: 300px;
+            height: 200px;
+            margin: 200px auto;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: rotate 20s linear infinite;
+            transform:  translateY(500-00px);
+        }
+        .bbox div{
+            text-align: center;
+            line-height: 300px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
+        }
+        .top{
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: rgba(123,211,25,0.8);
+            transform: rotateX(90deg) translateZ(50px);
+
+        }
+        .bottom{
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: rgba(25,65,123,0.8);
+            transform: rotateX(-90deg) translateZ(50px);
+        }
+        .left{
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: rgba(211,12,45,0.8);
+            transform: rotateY(-90deg) translateZ(50px);
+        }
+        .right{
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: rgba(123,123,123,0.8);
+            transform: rotateY(90deg) translateZ(50px);
+        }
+        .font{
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: rgba(200,200,111,0.8);
+            transform:translateZ(50px);
+        }
+        .back{
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: rgba(111,13,111,0.8);
+            transform: rotateY(180deg) translateZ(50px);
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotateX(20deg) rotateY(20deg);
+            }
+            100%{
+                transform: rotateX(380deg) rotateY(380deg);
+            }
+        }
+        .ttop{
+            width: 300px;
+            height: 300px;
+            background: rgba(13,211,25,0.8);
+            transform: rotateX(90deg) translateZ(150px);
+
+        }
+        .bbottom{
+            width: 300px;
+            height: 300px;
+            background: rgba(25,65,13,0.8);
+            transform: rotateX(-90deg) translateZ(150px);
+        }
+        .lleft{
+            width: 300px;
+            height: 300px;
+            background: rgba(21,12,45,0.8);
+            transform: rotateY(-90deg) translateZ(150px);
+        }
+        .rright{
+            width: 300px;
+            height: 300px;
+            background: rgba(13,123,123,0.8);
+            transform: rotateY(90deg) translateZ(150px);
+        }
+        .ffont{
+            width: 300px;
+            height: 300px;
+            background: rgba(200,20,111,0.8);
+            transform: translateZ(150px);
+        }
+        .bback{
+            width: 300px;
+            height: 300px;
+            background: rgba(11,13,111,0.8);
+            transform: rotateY(180deg) translateZ(150px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bbox">
+    <div class="ttop">上上面</div>
+    <div class="bbottom">下下面</div>
+    <div class="lleft">左左面</div>
+    <div class="rright">右右面</div>
+    <div class="ffont">前前面</div>
+    <div class="bback">后后面</div>
+
+    </div>
+    <div class="box">
+        <div class="top">上面</div>
+        <div class="bottom">下面</div>
+         <div class="left">左面</div>
+        <div class="right">右面</div>
+        <div class="font">前面</div>
+        <div class="back">后面</div>
+
+
+
+</div>
+</body>
+</html>
