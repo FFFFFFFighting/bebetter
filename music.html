@@ -19,7 +19,7 @@
         </div>
         <div class="right">
             <div class="name">
-                <!--<span><b>当冬夜渐暖-&#45;&#45;孙燕姿</b></span>-->
+                <span><b><!--当冬夜渐暖-&#45;&#45;孙燕姿--></b></span>
             </div>
 
             <div class="bar">
@@ -116,10 +116,12 @@
                         str += data[i].ar[j].name + '  ';
                     }
                     str += '</span></li>';
-                }
                 listBox.innerHTML = str;
 
                 lis = document.querySelectorAll('li');
+                lis[index].className = 'active';
+                }
+
 
             },
             error: function (err) {
@@ -204,12 +206,6 @@
     /*创建一个init方法*/
     function init(){
         rotateDeg = 0;
-        /*初始化专辑封面，歌手歌曲名，播放路径，播放时间*/
-       /* pic.src = date[index].pic;
-        audio.src= date[index].url;
-        singer.innerHTML = date[index].song + '---'+date[index].singer;
-*/
-        /*切换列表选中项*/
         var songStr='';
         for (var j=0;j<data[index].ar.length;j++){
             /*clearInterval(timer);*/
@@ -218,12 +214,10 @@
         singer.innerHTML=data[index].name+'---'+songStr;
         /*lis[index].className=' active';*/
         /*lis[index].className = 'active';*/
-
-
-
-
-
-
+        for (var j=0;j<data.index;i++){
+            lis[j].className='';
+        }
+        lis[index].className='active';
 
 
 
@@ -232,7 +226,8 @@
 
     /*播放*/
     function play(){
-        pic.src=data[index].al.picUrl;
+        /*pic.src=data[index].al.picUrl;*/
+        audio.src = 'http://music.163.com/song/media/outer/url?id='+data[index].id+'.mp3 ';
         /*播放音乐*/
         audio.play();
         /*console.log(audio.paused);*/
@@ -425,6 +420,10 @@
         border-radius: 50%;
     }
     body{
+
+        /*background-size:100% ;
+        background-image: url("marvel.jpg");
+        background-repeat: no-repeat;*/
         background: #c793dc;
     }
     .bar{
@@ -520,10 +519,10 @@
 
 
     }
-    .active{
+    /*.active{
         background: aqua;
 
-    }
+    }*/
 
 </style>
 </html>
