@@ -1,0 +1,500 @@
+*{
+    padding: 0;margin: 0;
+}
+html{
+    font-size: 10px;
+}
+html,body{
+    width: 100%;height: 100%;
+}
+.kk{
+    width: 100%;
+    height: 1.2rem;
+    background-color: rgb(245,245,245);
+    border-top: 1px solid rgb(229,229,229);
+    border-bottom: 1px solid rgb(229,229,229);
+}
+header{
+    width: 100%;
+    height: 4.2rem;
+    background-color: #ff8a00;
+    position: relative;
+}
+header>img{
+    width: 9.8rem;
+    height: 2.9rem;
+    position: absolute;
+    top: 50%;
+    left: 10.625%;
+    transform: translateY(-50%);
+}
+header>div{
+    position: absolute;
+    top: 0.7rem;
+    right: 1.2rem;
+
+}
+header>div>img{
+    width: 2.25rem;
+    height: 2.85rem;
+    margin-right: 2.1rem;
+}
+.photo{
+    width: 100%;
+    height: 18.5rem;
+}
+.photo>img{
+    width: 100%;
+    height: 18.5rem;
+}
+
+.details{
+    width: 100%;
+    height: 17rem;
+}
+
+.details>.box{
+    height: 14.2rem;
+    position: relative;
+    margin: 2.4rem 2rem 0rem 2rem;
+}
+.details>.box>a{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.details>.box>.one{
+    width: 100%;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0rem;
+    top: 5.9rem;
+}
+.details>.box>.one>a{
+    font-weight: bold;
+    color: red;
+}
+.details>.box>.one>img{
+    width: 1.3rem;
+    height: 1.9rem;
+    position: absolute;
+    right: 0;
+}
+.details>.box>.two {
+    font-size: 1.3rem;
+    color: rgb(174,196,176);
+    width: 100%;
+    position: absolute;
+    left: 0rem;
+    top: 8.8rem;
+}
+.details>.box>div{
+    width: 100%;
+    position: absolute;
+    left: 0rem;
+    top: 12.8rem;
+}
+.details>.box>div>span{
+    margin-right: 0.6rem;
+    font-size: 1.3rem;
+    color: rgb(102, 125, 145);
+    background-color: rgb(231, 234, 236);
+    padding: 0.5rem 0.4rem;
+}
+.tag{
+    width: 100%;
+    height: 45.7rem;
+}
+
+.tag>ul{
+    width: 28rem;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+.tag>ul>li{
+    width: 100%;
+    height: 5.1rem;
+    position: relative;
+    border-bottom: 1px solid rgb(229,229,229);
+}
+.tag>ul>li>a{
+    width: 100%;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tag>ul>li>a>span{
+    position: absolute;
+    left: 50%;
+}
+.tag>ul>li:nth-of-type(9){
+    border: none;
+}
+.tag>ul>li:nth-of-type(9)>a{
+    color: rgb(133, 133, 133);
+    text-align: center;
+
+}
+
+
+.feature{
+    width: 100%;
+    height: 23.1rem;
+    position: relative;
+}
+.feature>.box{
+    width: 28.2rem;
+    margin: 0 auto;
+}
+.feature>.box>p{
+    font-size: 1.6rem;
+    color: orange;
+    margin: 1.9rem 0;
+    font-weight: bold;
+}
+.feature>.box>div{
+    width: 100%;
+    height: 14rem;
+    border-bottom:1px solid rgb(229,229,229);
+    border-top:1px solid rgb(229,229,229);
+}
+.feature>.box>div>.inner{
+    margin:2.1rem 0;
+}
+.feature>.box>div>.inner>p{
+    font-size: 1.21rem;
+    margin-bottom: 1.3rem;
+}
+
+.feature>.box>span{
+    font-size: 1.3rem;
+    color: rgb(153,153,153);
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    bottom: 1.8rem;
+    transform: translateX(-50%);
+}
+
+
+.part{
+    width: 100%;
+    height: 28.8rem;
+}
+.part>.box{
+    width: 28.1rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.part>.box>p{
+    font-size: 1.6rem;
+    color: orange;
+    margin: 1.9rem 0;
+    font-weight: bold;
+}
+.part>.box>ul>li{
+    height: 11.9rem;
+    list-style: none;
+    width: 28.1rem;
+    position: relative;
+
+    border-top:1px solid rgb(229,229,229);
+    border-bottom: 1px solid rgb(255,138,0);
+}
+.part>.box>ul>li>img{
+    margin-top:2rem;
+}
+
+.part>.box>ul>li>.word{
+    margin-top: 2rem;
+    width: 20rem;
+    position: absolute;
+    top: 0;
+    left: 10rem;
+}
+.part>.box>ul>li>.word>a{
+    font-weight: bold;
+    font-size: 1.45rem;
+    position: absolute;
+    left: -1.5em;
+}
+.part>.box>ul>li>.word>p{
+    width: 20rem;
+    position: absolute;
+    left: -2rem;
+    top: 2.8rem;
+    font-size: 1.1rem;
+}
+.part>.box>ul>li>.word>span{
+    position: absolute;
+    left: -2rem;
+    top:5.9rem;
+    margin-right: 1rem;
+}
+.part>.box>ul>li>.word>span>a{
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+    color: rgb(132,154,174);
+    background-color: rgb(244,247,249);
+    padding: 0.5rem 0.4rem;
+
+}
+.part>.box>ul>li:nth-of-type(2){
+    border: none;
+}
+
+.school{
+    width: 100%;
+    height: 35.6rem;
+}
+.school>.ss{
+    height: 5rem;
+    width: 28rem;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    font-weight: bold;
+    position: relative;
+}
+.school>.ss>p{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.school>ul{
+    margin: 0 auto;
+    width: 28rem;
+    height: 100%;
+    list-style: none;
+}
+.school>ul>li{
+    font-size: 1.25rem;
+    height: 5rem;
+    position: relative;
+    border-top: 1px solid rgb(229,229,229);
+}
+.school>ul>li>a>span{
+    color: rgb(153,153,153);
+}
+.school>ul>li>a{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.school>ul>li:nth-of-type(6){
+    position: relative;
+}
+.school>ul>li:nth-of-type(6)>a{
+    color: rgb(153,153,153);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.map{
+    width: 100%;
+    height: 25.4rem;
+    position: relative;
+}
+.map>.zb>span{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.map>.zb{
+    width: 28rem;
+    height: 3.7rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    border-bottom: 1px solid rgb(229,229,229);
+
+}
+.map>#container{
+    position: absolute;
+    left: 50%;
+    top: 7.6rem;
+    transform: translateX(-50%);
+}
+#container{
+    width: 28rem;
+    height: 15.5rem;
+}
+
+
+
+
+.tuijian{
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid rgb(229,229,229);
+    position: relative;
+
+}
+.tuijian>span{
+    font-size: 1.7rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
+}
+.house{
+    width: 100%;
+    height: 34.5rem;
+}
+.house{
+    width: 100%;
+
+    display: flex;
+}
+.house>ul{
+    width: 100%;
+    list-style: none;
+
+}
+.house>ul>li>img{
+    width: 8.1rem;
+    height: 8.1rem;
+}
+.house>ul>li{
+    position: relative;
+    width: 87.5%;
+    height: 12rem;
+    display: flex;
+    margin: 2.4rem 0 0 2rem;
+    border-bottom: 1px solid rgb(229,229,229);
+    padding-bottom: 2.5rem;
+}
+.house>ul>li>.word>a{
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: absolute;
+    left: 9.3rem;
+    top: -0.7rem;
+}
+.house>ul>li>.word>p{
+    width: 65%;
+    position: absolute;
+    left: 9.3rem;
+    top: 2.4rem;
+}
+.house>ul>li>.word>p>a{
+    position: absolute;
+    right: 0rem;
+    font-weight: bold;
+    color: orange;
+}
+.house>ul>li>.word>span{
+    width: 65%;
+    color: #999999;
+    position: absolute;
+    left: 9.3rem;
+    top: 4.6rem;
+}
+.house>ul>li>.word>span>a{
+    position: absolute;
+    right: 0rem;
+}
+.house>ul>li>.word>div{
+    position: absolute;
+    left: 9.3rem;
+    top: 7rem;
+}
+.house>ul>li>.word>div>span{
+    color: rgb(132,154,174);
+    background-color: rgb(244,247,249);
+    padding: 0.5rem 0.4rem;
+}
+.house>ul>li:nth-of-type(2){
+    border: none;
+}
+.house>ul>li>.word>.fuck{
+    background-color: rgb(234, 234, 234);
+    width: 30rem;
+    height: 3.6rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 0;
+}
+.house>ul>li>.word>.fuck>a{
+    line-height: 3.6rem;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+.find{
+    width: 100%;
+    height: 5rem;
+    border-top: 1px solid rgb(229,229,229);
+    position: relative;
+}
+.find>span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.2rem;
+
+}
+footer{
+    width: 100%;
+    height: 26%;
+    background-color: rgb(47,49,48);
+
+}
+footer>a{
+    display: block;
+    width: 100%;
+    height: 4.1rem;
+    position: relative;
+
+}
+footer>a>h3{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(146,148,148);
+}
+footer>div{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #999999;
+    position: relative;
+
+}
+footer>div>ul{
+    list-style: none;
+}
+footer>div>ul>li{
+    float: left;
+    position: relative;
+}
+footer>div>ul>li>span{
+    position: absolute;
+    top: 0.4rem;
+    left: 3rem;
+    color: #999999;
+}
+footer>div>ul>li:nth-of-type(1){
+    position: absolute;
+    top: 1.5rem;
+    left: 1.1rem;
+}
+footer>div>ul>li:nth-of-type(2){
+    position: absolute;
+    top: 1.5rem;
+    right: 11.7rem;
+}
+footer>div>span{
+    font-size: 1.1rem;
+    position: absolute;
+    left: 4.8rem;
+    top: 6.7rem;
+    color: #999999;
+}
+
+
+

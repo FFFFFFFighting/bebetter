@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>找房无忧</title>
+    <link rel="stylesheet" href="css/first.css">
+</head>
+<body>
+
+<header>
+    <img src="image/index/logo.jpg">
+    <div>
+        <img src="image/index/my.jpg">
+        <img src="image/index/xiazai.jpg">
+    </div>
+</header>
+
+<div class="search">
+    <input type="text" name="search" placeholder="请输入小区名或商圈名">
+    <span></span>
+</div>
+
+<div class="type">
+    <ul>
+        <li class="one"><h1>区域▼</h1></li>
+        <li class="two"><h1>价格▼</h1></li>
+        <li class="three"><h1>房型▼</h1></li>
+        <li class="four"><h1>更多▼</h1></li>
+    </ul>
+</div>
+<div class="knock">
+    <ul id="one">
+        <li class="one"><h1>区域▲</h1></li>
+        <li class="two"><h1>价格▼</h1></li>
+        <li class="three"><h1>房型▼</h1></li>
+        <li class="four"><h1>更多▼</h1></li>
+    </ul>
+    <div class="bot">
+    <ul class="two">
+        <li><h1>区域</h1></li>
+        <li><h1>地铁</h1></li>
+    </ul>
+    <ul class="three">
+        <li>附近</li>
+        <li>不限</li>
+        <li>朝阳</li>
+        <li>海淀</li>
+        <li>昌平</li>
+        <li>丰台</li>
+        <li>石景山</li>
+    </ul>
+    <ul class="four">
+        <li><a>不限</a></li>
+        <li><a>安贞</a></li>
+        <li><a>奥林匹克公园</a></li>
+        <li><a>百子湾</a></li>
+        <li><a>北江大</a></li>
+        <li><a>北苑</a></li>
+        <li><a>CBD</a></li>
+    </ul>
+    </div>
+</div>
+<div class="zhe"></div>
+
+
+
+
+<div class="house">
+    <ul>
+        <li><div><img src="image/index/img1.jpg"></div><span>
+            <h2>西便门外大街2室1厅89平</h2>
+            <p>西北&nbsp;高楼层/6层</p>
+            <span>签约价格:13244远/平<a>1105万</a></span>
+            <span>签约日期:2015年11月10日</span>
+        </span></li>
+        <li><div><img src="image/index/img2.png"></div><span>
+             <h2>金桥国际&nbsp;2室1厅&nbsp;63平</h2>
+             <p>西北&nbsp;高楼层/6层</p>
+             <span>签约价格:13244远/平<a>905万</a></span>
+             <span>签约日期:2015年11月10日</span>
+        </span></li>
+        <li><div><img src="image/index/img3.png"></div><span>
+             <h2>花润溪二期&nbsp;2室2厅&nbsp;90平</h2>
+             <p>西北&nbsp;高楼层/6层</p>
+             <span>签约价格:13244远/平<a>1322万</a></span>
+             <span>签约日期:2015年11月10日</span>
+        </span></li>
+    </ul>
+</div>
+
+<footer>
+    <a><h3>北京找房无忧&nbsp;>&nbsp;首页</h3></a>
+    <div>
+        <ul>
+            <li><img src="image/index/apple.png" width="17rem" height="21rem"><span>iPhone<br>客户端</span></li>
+            <li><img src="image/index/android.png" width="18rem" height="21rem"><span>Android<br>客户端</span></li>
+        </ul>
+
+        <span>
+        <p> 北京找房无忧房地产经纪公司<br>网络经营许可证ICP备20160812号</p>
+        </span>
+
+    </div>
+
+
+</footer>
+
+</body>
+<script src="js/zepto.js"></script>
+<script>
+
+       $('.type>ul>.one').on('click',function () {
+           console.log('dd')
+           $('.knock').show();
+           $('.zhe').show();
+       });
+
+       $('.zhe').on('click',function () {
+           console.log('dd')
+           $('.knock').hide();
+           $('.zhe').hide();
+       });
+
+
+</script>
+
+
+
+</html>

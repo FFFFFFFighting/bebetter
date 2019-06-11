@@ -1,0 +1,325 @@
+*{
+    padding: 0;margin: 0;
+}
+html{
+    font-size: 10px;
+}
+html,body{
+    width: 100%;height: 100%;
+}
+header{
+    width: 100%;
+    height: 4.2rem;
+    background-color: #ff8a00;
+    position: relative;
+}
+header>img{
+    width: 9.8rem;
+    height: 2.9rem;
+    position: absolute;
+    top: 50%;
+    left: 10.625%;
+    transform: translateY(-50%);
+}
+header>div{
+    position: absolute;
+    top: 0.7rem;
+    right: 1.2rem;
+
+}
+header>div>img{
+    width: 2.25rem;
+    height: 2.85rem;
+    margin-right: 2.1rem;
+}
+
+
+.photo{
+    width: 100%;
+    height: 22.4rem;
+    background: url("../image/index/banner.png")no-repeat;
+    background-size:100% 22.4rem ;
+    position: relative;
+}
+.photo>input{
+    box-shadow: 0.2rem 0.2rem 0.1rem #999999;
+    height: 3.4rem;
+    width: 28.7rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999999;
+    background: url('../image/index/seach.jpg')white 0.7rem 0.9rem no-repeat;
+    background-size: 1.5rem 1.5rem;
+    position: absolute;
+    bottom: 0.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.tag{
+    width: 100%;
+    height: 11.1rem;
+    background-color: rgb(255,138,0);
+    position: relative;
+}
+.tag>ul>li>img{
+    width: 5.7rem;
+    height: 5.7rem;
+}
+.tag>ul{
+    width: 100%;
+    height: 11.1rem;
+}
+.tag>ul>li{
+    width: 25%;
+    list-style: none;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.7rem;
+}
+.tag>ul>li>span{
+    font-size: 1.2rem;
+    position: absolute;
+    color: white;
+    top: 8.1rem;
+}
+
+
+.nothing{
+    width: 100%;
+    height: 1rem;
+    background-color: rgb(245,245,245);
+}
+
+.image{
+    width: 100%;
+    height: 25.2rem;
+    background:url("../image/index/banner2.png") no-repeat;
+    background-size: 100% 25.2rem;
+}
+
+.popular{
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 6.1rem;
+    background-color: rgb(255,138,0);
+}
+.popular>span>a{
+    font-size: 1.6rem;
+    font-weight: bold;
+    position: absolute;
+    left: 2rem;
+    top: 1.4rem;
+}
+.popular>span>b{
+    position: absolute;
+    left: 2rem;
+    top: 3.9rem;
+}
+
+
+.house{
+    width: 100%;
+
+    display: flex;
+}
+.house>ul{
+    width: 100%;
+    list-style: none;
+
+}
+.house>ul>li>img{
+    width: 8.1rem;
+    height: 8.1rem;
+}
+.house>ul>li{
+    position: relative;
+    width: 87.5%;
+    display: flex;
+    margin: 2.4rem 0 0 2rem;
+    border-bottom: 1px solid rgb(255,0,0);
+    padding-bottom: 2.5rem;
+}
+.house>ul>li>.word>a{
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: absolute;
+    left: 9.3rem;
+    top: -0.7rem;
+}
+.house>ul>li>.word>p{
+    width: 65%;
+    position: absolute;
+    left: 9.3rem;
+    top: 2.4rem;
+}
+.house>ul>li>.word>p>a{
+    position: absolute;
+    right: 0rem;
+    font-weight: bold;
+    color: orange;
+}
+.house>ul>li>.word>span{
+    width: 65%;
+    color: #999999;
+    position: absolute;
+    left: 9.3rem;
+    top: 4.6rem;
+}
+.house>ul>li>.word>span>a{
+    position: absolute;
+    right: 0rem;
+}
+.house>ul>li>.word>div{
+    position: absolute;
+    left: 9.3rem;
+    top: 7rem;
+}
+.house>ul>li>.word>div>span{
+    color: rgb(132,154,174);
+    background-color: rgb(244,247,249);
+    padding: 0.5rem 0.4rem;
+
+}
+.house>ul>li:nth-of-type(3){
+    border: none;
+}
+
+
+
+.nothing{
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(245,245,245);
+    border-top:1px solid rgb(229,229,229);
+    border-bottom:1px solid rgb(229,229,229)
+}
+
+.end{
+    width: 100%;
+    height: 19.2rem;
+}
+.end>.left{
+    width: 50%;
+    position: relative;
+}
+.end>.left>.inner{
+    width: 100%;
+    height: 5.5rem;
+    border-bottom: 1px solid rgb(255,138,0);
+}
+.end>.left>.inner>p{
+    color: rgb(102,102,102);
+    position: relative;
+    top: 1.8rem;
+    left: 4.4rem;
+    font-size: 2rem;
+}
+.end>.left>ul{
+    list-style: none;
+    width: 50%;
+   position: absolute;
+    top: 7.6rem;
+    left: 2.2rem;
+}
+.end>.left>ul>li{
+    font-size: 1.05rem;
+    color: rgb(102,102,102);
+    margin-bottom: 1.5rem;
+}
+
+
+.end>div{
+    float: left;
+}
+.end>.right{
+    width: 50%;
+    position: relative;
+}
+.end>.right>.inner{
+    width: 100%;
+    height: 5.5rem;
+    border-bottom: 1px solid rgb(255,138,0);
+}
+.end>.right>.inner>p{
+    color: rgb(102,102,102);
+    position: relative;
+    top: 1.8rem;
+    left: 3.4rem;
+    font-size: 2rem;
+
+}
+.end>.right>ul{
+    list-style: none;
+    width: 50%;
+    position: absolute;
+    top: 7.6rem;
+    left: 2rem;
+}
+.end>.right>ul>li{
+    color: rgb(102,102,102);
+    margin-bottom: 1.5rem;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 26%;
+    background-color: rgb(47,49,48);
+
+}
+footer>a{
+    display: block;
+    width: 100%;
+    height: 4.1rem;
+    position: relative;
+
+}
+footer>a>h3{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(146,148,148);
+}
+footer>div{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border-top: 1px solid rgb(62,64,63);
+    position: relative;
+
+}
+footer>div>ul{
+    list-style: none;
+}
+footer>div>ul>li{
+    float: left;
+    position: relative;
+}
+footer>div>ul>li>span{
+    position: absolute;
+    top: 0.4rem;
+    left: 3rem;
+    color: rgb(147,148,148);
+}
+footer>div>ul>li:nth-of-type(1){
+    position: absolute;
+    top: 1.5rem;
+    left: 1.1rem;
+}
+footer>div>ul>li:nth-of-type(2){
+    position: absolute;
+    top: 1.5rem;
+    right: 11.7rem;
+}
+footer>div>span{
+    font-size: 1.1rem;
+    position: absolute;
+    left: 4.8rem;
+    top: 6.7rem;
+    color: rgb(147,148,148);
+}
